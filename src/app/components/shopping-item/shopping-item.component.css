@@ -1,0 +1,28 @@
+input {
+    border: solid 1px grey;
+    width: 100%;
+    background-color: rgb(41,41,41);
+    color: rgb(230,230,230);
+}
+
+input:disabled {
+    border: 0px;
+}
+
+.itemContainer {
+    display: inline-block;
+    width: 19%;
+    border: solid 1px black;
+    margin: 5px;
+    background-color: rgb(41,41,41);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+button {
+    margin: 5px;
+    border-radius: 15px;
+    background-color: rgb(101,101,101);
+    color: white;
+}

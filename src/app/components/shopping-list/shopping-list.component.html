@@ -1,0 +1,11 @@
+<div class="container">
+    <app-shopping-item *ngFor="let item of shopList"
+                        [name]="item.name"
+                        [description]="item.description"
+                        [editBool]="getEditShopping()"
+                        [id]="item.id"></app-shopping-item>
+    <div class=editShopping>
+        <button (click)='editShoppingList()'>Edit shopping list</button>
+        <button (click)='addItem()'>Add item</button>
+    </div>
+</div>

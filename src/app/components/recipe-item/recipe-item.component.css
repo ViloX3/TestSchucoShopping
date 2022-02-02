@@ -1,0 +1,10 @@
+.itemContainer {
+    display: inline-block;
+    width: 19%;
+    border: solid 1px black;
+    margin: 5px;
+    background-color: rgb(41,41,41);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
